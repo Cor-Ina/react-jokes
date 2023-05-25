@@ -1,6 +1,6 @@
 import React from "react"
 import Joke from "./Joke"
-import jokesData from "./JokesData"
+import jokesData from "./jokesData"
 
 export default function App() {
     const jokeElements = jokesData.map(joke => {
